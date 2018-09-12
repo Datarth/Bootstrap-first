@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg my-navbar navbar-dark col-md-offset-4 ">
+            <div class="container ">
+                <span class="navbar-brand h1">TeaTeam</span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link to-uppercase ">Strona główna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link to-uppercase">Co oferujemy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link to-uppercase">Nasze realizacje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link to-uppercase">Kontakt</a>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline text-center">
+                        <button class="btn btn-dark ml-2">
+                            <i class="fas fa-search" aria-hidden="true">Szukaj</i>
+                        </button>
+                        <input class="form-control form-control-sm ml-3" type="text" placeholder="Wpisz tekst"
+                            aria-label="Wpisz tekst">
+                        
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="my-section-jumbotron">
+        <div class="jumbotron jumbotron-fluid my-jumbotron d-flex align-items-center mb-0">
+            <div class="container text-center my-jumbotron-slogan">
+                <h1 class="display-4 text-white text-uppercase my-jumbotron-text my-4">Poznaj smak prawdziwej
+                    <span class="text-warning font-weight-bold">herbaty</span>
+                </h1>
+                <buttom class="btn btn-primary my-4">Dołącz do teateam </buttom>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-section-mission">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h2 class="section-heading  mt-4">Mamy wszystko czego potrzebujesz </h2>
+                    <hr class="light my-4">
+                    <p class="text-faded mb-4">Nie istnieje żaden na tyle powazny problem,
+                        którego nie dałoby się załagodzić filiżanką dobrej herbaty.</p>
+                    <div id="Karuzela" class="carousel-slide " data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#Karuzela" data-slide-to="0" class="active"></li>
+                            <li data-target="#Karuzela" data-slide-to="1"></li>
+                            <li data-target="#Karuzela" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/obraz1.jpg" alt="Pierwszy slajd">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/obraz2.jpg" alt="Drugi slajd">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/obraz3.jpg" alt="Trzeci slajd">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#Karuzela" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Poprzedni</span>
+                        </a>
+                        <a class="carousel-control-next" href="#Karuzela" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Następny</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center my-4">
+                    <h2 class="section-heading text-uppercase">Nasza kompozycji </h2>
+                    <h3 class="section-subheading text-muted">Sprawdź ostatnie realizacje </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/fullsize/1.jpg" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Łagodny początek</h4>
+                        <p>Zielony raj</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                        <div class="portfolio-hover">
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/fullsize/2.jpg" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Poszukiwanie</h4>
+                        <p>Dla bardziej wtajemniczonych</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                        <div class="portfolio-hover">
+                           
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/fullsize/3.jpg" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Relaks</h4>
+                        <p>Dla zabieganych</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                        <div class="portfolio-hover">
+                           
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/fullsize/4.jpg" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Chwila zadumy</h4>
+                        <p>Zatrzymaj się i sprawdź</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                        <div class="portfolio-hover">
+                            
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/fullsize/5.jpg" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Ożywienie</h4>
+                        <p>Nabierz sił</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                        <div class="portfolio-hover">
+                            
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/fullsize/6.jpg" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Smak nieznanego</h4>
+                        <p >Dla odważnych</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Masz pytania? Napisz do nas</h2>
+                    <h3 class="section-subheading text-muted">Wypełnij formularz kontaktowy</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" type="text" placeholder="Imię"
+                                        required="required" data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="email" type="email" placeholder="Email"
+                                        required="required" data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="phone" type="tel" placeholder="Numer telefonu"
+                                        required="required" data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" placeholder="Twoja wiadomosc" rows="6"
+                                        cols="30" required="required"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase my-4" type="submit">Wyslij wiadomosc</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section >
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+                <p> Strona stworzona przez Konrad Nowak 2018 Dziękuję za wizytę!</p>
+            </div>
+            <div class="col-md-4">
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
